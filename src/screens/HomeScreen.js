@@ -8,7 +8,11 @@ export default function HomeScreen({navigation}) {
       <Text>Anasayfa</Text>
       <Button
         title="Kurs Sayfasına Git"
-        onPress={() => navigation.navigate('Kurslarım')}
+        onPress={() => navigation.navigate('Kurslarim')}
+      />
+      <Button
+        title="Kurs Bilgilerim"
+        onPress={() => navigation.navigate('Kurs Bilgilerim')}
       />
     </View>
   )
