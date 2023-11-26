@@ -6,19 +6,21 @@ import HomeScreen from './src/screens/HomeScreen';
 import Courses from './src/screens/Courses';
 const Stack = createNativeStackNavigator();
 
+
+
 export default function App() {
-  
+
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Courses" component={Courses} />
+        <Stack.Screen name="Anasayfa" component={HomeScreen} />
+        <Stack.Screen name="Kurslarım" component={Courses} />
       </Stack.Navigator>
     </NavigationContainer>
   );
 }
 
 const styles = StyleSheet.create({
-  
-  
+
+
 });
