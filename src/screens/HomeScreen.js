@@ -4,8 +4,8 @@ import React from 'react'
 
 export default function HomeScreen({navigation}) {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: '#7ddbc7' }}>
-      <Text>Anasayfa</Text>
+    <View style={{ flex: 1, gap: 20, alignItems: 'center', justifyContent: 'center', backgroundColor: '#7ddbc7' }}>
+      <Text style={{ fontSize: 30}}>Anasayfa</Text>
       <Button
         title="Kurs Sayfasına Git"
         onPress={() => navigation.navigate('Kurslarim')}
