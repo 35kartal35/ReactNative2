@@ -12,7 +12,7 @@ export default function Courses() {
         {name: 'Pyhton', id:7}
       ]
   return (
-    <FlatList 
+    <FlatList style={{backgroundColor: '#77d4b2'}}
     data={courses}
     //horizontal={true}
     //showsHorizontalScrollIndicator={false}
@@ -27,7 +27,7 @@ export default function Courses() {
 const styles = StyleSheet.create({
     content:{
         fontSize:20,
-        backgroundColor: '#d4996a',
+        backgroundColor: '#dfe3bc',
         padding:20,
         margin:20,
       }

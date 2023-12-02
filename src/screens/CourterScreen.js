@@ -25,13 +25,14 @@ const styles = StyleSheet.create({
     padding: 20,
     gap:20,
     alignItems: 'center',
-    flex: 1
+    flex: 1,
+    backgroundColor: '#d6de8e'
     
       },
 
       Texti: {
 
-        fontSize: 30,
+        fontSize: 40,
         color: '#961e74'
       }
 })
