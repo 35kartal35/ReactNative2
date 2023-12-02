@@ -7,7 +7,9 @@ export default function Courses() {
         {name: 'React Js', id:2},
         {name: 'C#', id:3},
         {name: 'c Proglamlama', id:4},
-        {name: 'Bootstrap', id:5}
+        {name: 'Bootstrap', id:5},
+        {name: 'SAP', id:6},
+        {name: 'Pyhton', id:7}
       ]
   return (
     <FlatList 
@@ -25,7 +27,7 @@ export default function Courses() {
 const styles = StyleSheet.create({
     content:{
         fontSize:20,
-        backgroundColor: 'yellow',
+        backgroundColor: '#d4996a',
         padding:20,
         margin:20,
       }
