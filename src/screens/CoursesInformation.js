@@ -15,8 +15,7 @@ export default function CoursesInformation() {
       imageSource={require('../../assets/React.png')}
       desc="Kapsamlı React Eğitimi"
       />
-      
-      <Information 
+            <Information 
       title="SAP Proglamlama Eğitimi"
       imageSource={require('../../assets/SAP.png')}
       desc="Kapsamlı SAP Eğitimi"
