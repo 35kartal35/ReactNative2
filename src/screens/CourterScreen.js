@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
       Texti: {
 
         fontSize: 100,
-        color: '#d7dba2'
+        color: '#e31433'
       },
       image: {
         flex: 1,

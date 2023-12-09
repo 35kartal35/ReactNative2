@@ -30,15 +30,21 @@ export default function HomeScreen({navigation}) {
         onPress={() => navigation.navigate('Sayaç Projesi')}
       />
       <Button
-        color="#74b9d6"
+        color="#d48de0"
         title="Kutu Uygulaması"
         onPress={() => navigation.navigate('Kutu Uygulaması')}
       />
       <Button
-        color="#74b9d6"
+        color="#9ee8d3"
         title="Renk Degistir"
         onPress={() => navigation.navigate('Renk Degistir')}
       />
+      <Button
+        
+        title="Şifre Ekranı"
+        onPress={() => navigation.navigate('Şifre Ekranı')}
+      />
+      
       </ImageBackground>
     </View>
   )
