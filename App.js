@@ -7,6 +7,7 @@ import Courses from './src/screens/Courses';
 import CoursesInformation from './src/screens/CoursesInformation';
 import CourterScreen from './src/screens/CourterScreen';
 import BoxScreen from './src/screens/BoxScreen';
+import UseReducerBox from './src/screens/UseReducerBox';
 const Stack = createNativeStackNavigator();
 
 
@@ -21,6 +22,7 @@ export default function App() {
         <Stack.Screen name="Kurs Bilgilerim" component={CoursesInformation} />
         <Stack.Screen name="Sayaç Projesi" component={CourterScreen} />
         <Stack.Screen name="Kutu Uygulaması" component={BoxScreen} />
+        <Stack.Screen name="Renk Degistir" component={UseReducerBox} />
       </Stack.Navigator>
     </NavigationContainer>
   );
