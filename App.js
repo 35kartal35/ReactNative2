@@ -9,6 +9,7 @@ import CourterScreen from './src/screens/CourterScreen';
 import BoxScreen from './src/screens/BoxScreen';
 import UseReducerBox from './src/screens/UseReducerBox';
 import PasswordScreen from './src/screens/PasswordScreen';
+import DesignScreen from './src/screens/DesignScreen';
 const Stack = createNativeStackNavigator();
 
 
@@ -25,6 +26,7 @@ export default function App() {
         <Stack.Screen name="Kutu Uygulaması" component={BoxScreen} />
         <Stack.Screen name="Renk Degistir" component={UseReducerBox} />
         <Stack.Screen name="Şifre Ekranı" component={PasswordScreen} />
+        <Stack.Screen name="Dizayn Sayfasi" component={DesignScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

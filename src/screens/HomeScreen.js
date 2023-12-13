@@ -44,6 +44,11 @@ export default function HomeScreen({navigation}) {
         title="Şifre Ekranı"
         onPress={() => navigation.navigate('Şifre Ekranı')}
       />
+      <Button
+        color="#a2b350"
+        title="Dizayn Sayfasi"
+        onPress={() => navigation.navigate('Dizayn Sayfasi')}
+      />
       
       </ImageBackground>
     </View>
